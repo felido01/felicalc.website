@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> A Calculator</title>
+</head>
+<link rel="stylesheet" href="calculator.css">
+<style>
+ 
+</style>
+<body>
+  <div id="div-1">
+   <div id="div-2">FELIX</a></div><br>
+  <input type="text" placeholder="0" id="input-1"> 
+  <div>
+    
+  <button onclick="ac()">AC</button>
+  <button onclick="del()"> DEL</button>
+  <button onclick="calculate('%')">%</button>
+  <button onclick="calculate('/')">/</button> 
+  <br>
+
+  <button onclick="calculate('7')">7</button>
+  <button onclick="calculate('8')">8</button>
+  <button onclick="calculate('9')">9</button>
+  <button onclick="calculate('*')">*</button>
+  <br>
+  <button onclick="calculate('4')">4</button>
+  <button onclick="calculate('5')">5</button>
+  <button onclick="calculate('6')">6</button>
+  <button onclick="calculate('-')">-</button>
+  <br>
+  <button onclick="calculate('1')">1</button>
+  <button onclick="calculate('2')">2</button>
+  <button onclick="calculate('3')">3</button>
+  <button onclick="calculate('+')">+</button>
+  <br>
+  <button onclick="calculate('.')">.</button>
+<!-- <button onclick="calculate()">
+  AC
+</button> -->
+  <button onclick="calculate('0')">0</button>
+  <button id="edit-b" onclick="Result()">=</button><div id="div-4">
+    click <a href="http://127.0.0.1:5500/felix.%20calc.html">felix.calc</a> to have access to the code
+
+  </div>
+
+  </div>
+  </div>
+  
+
+
+  <script>
+   let result= document.getElementById(`input-1`);
+   let calculate=(number) => {result.value=result.value+number}
+   let Result=() =>{
+    try{
+      result.value= eval(result.value)
+    }
+    catch(err){
+      alert('Enter the valid input')
+    }
+   }
+   function ac(){
+    // result.value= " 0";
+    result.value=result.value.slice(-1,-1)
+   }
+   function del() {
+    result.value=result.value.slice(0,-1)
+   }
+
+  </script>
+</body>
+</html>

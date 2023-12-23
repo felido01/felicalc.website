@@ -1,0 +1,83 @@
+
+*{
+ background-color: b; 
+}
+button{
+  width: 75px;
+  height: 60px;
+  border: 1px;
+  /* background-color: rgb(71, 70, 70); */
+  background-color: transparent;
+  /* color:; */
+  font-size: xx-large;
+  border-radius: 5px;
+  margin: 4px;
+  margin-top: 16px;
+  font-weight: bolder;
+  box-shadow: 0px 1px 1px 2px black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#edit-b{
+
+  width: 165px;
+}
+input{
+  box-shadow: 0px 0px 2px 2px black;
+  border: 1px black;
+  border-radius: 14px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  
+  width: 340px;
+  text-align: end;
+  /* margin-right: 10px; */
+  height: 80px;
+  color: black
+  ;
+  font-size: 60px;
+  background-color: transparent;
+  /* grid-column:auto; */
+ 
+  
+}
+#div-1{
+  font-display:inherit;
+  width: 370px;
+  background-color: transparent;
+  padding-left: 0px;
+  margin-left: 0px;
+  margin: 0 auto;
+  padding-top: 60px;
+  text-align: center;
+  height: 14.5cm;
+  border: 1px;
+  border-radius: 19px;
+  background-color: transparent;
+box-shadow: 0px white 6px 0px  1px ;
+  
+}
+body{
+
+padding-top: 15px;
+background-image: url(scott-webb-mV9-1XjnM4Y-unsplash.jpg);
+background-position: center;
+background-size: cover;
+outline: none;
+font-family: sans-serif;
+
+}
+#div-2{
+  font-weight: bolder;
+  /* color: rgb(238, 234, 234); */
+  color:rgb(3, 3, 90);
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-size:xx-large;
+}
+a{
+  color:white ;
+}
+#div-4{
+  color: rgb(11, 12, 14);
+  font-weight: bolder;
+}
+
